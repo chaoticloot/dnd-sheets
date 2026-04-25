@@ -29,7 +29,7 @@ const characterCache: Record<string, ParsedCharacter> = {};
 
 function preloadCharacter(id: string) {
   if (characterCache[id]) return;
-  fetch(`/characters/${id}.json`)
+  fetch(`characters/${id}.json`)
     .then((res) => {
       if (!res.ok) throw new Error(`Could not find character: ${id}`);
       return res.json();
@@ -60,7 +60,7 @@ function RemoteCharacterLoader({
     }
 
     // Fetch the JSON from the public/characters folder
-    fetch(`/characters/${id}.json`)
+    fetch(`characters/${id}.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`Could not find character: ${id}`);
         return res.json();
@@ -84,10 +84,11 @@ function RemoteCharacterLoader({
         {error}
       </div>
     );
-   if (!character)
+  if (!character)
     return (
       <div className="p-12 text-center text-gray-500 flex flex-col items-center justify-center gap-4 h-64">
-        /*<Loader2 className="w-8 h-8 animate-spin text-gray-400" />
+        /*
+        <Loader2 className="w-8 h-8 animate-spin text-gray-400" />
         Loading {id}...*/
       </div>
     );
