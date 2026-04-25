@@ -1,0 +1,5 @@
+{
+  "name": "Foundry 5e Character Sheet",
+  "description": "Import D&D 5e player characters from Foundry VTT JSON and display them in a beautifully designed, print-friendly character sheet format.",
+  "requestFramePermissions": []
+}
