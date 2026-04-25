@@ -7,11 +7,7 @@ import React, { useState, useEffect } from "react";
 import { FileUploader } from "./components/FileUploader";
 import { CharacterSheet } from "./components/CharacterSheet";
 import { parseFoundryJSON, ParsedCharacter } from "./lib/foundryParser";
-import {
-  Printer,
-  AlertTriangle,
-  Users,
-} from "lucide-react";
+import { Printer, AlertTriangle, Users } from "lucide-react";
 import { characters } from "virtual:characters";
 
 const characterCache: Record<string, ParsedCharacter> = {};
@@ -104,13 +100,16 @@ function MainUI() {
     <div className="min-h-screen bg-[#d1d1d1]">
       {/* Top Banner (hidden during print) */}
       <header className="bg-dnd-ink text-dnd-parchment p-4 shadow-md no-print sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={handleReset}>
-            <div className="w-8 h-8 rounded bg-dnd-red flex items-center justify-center font-serif font-bold text-xl">
-              D
+        <div className="max-w-5xl mx-auto flex items-center justify-between">
+          <div
+            className="flex items-center space-x-3 cursor-pointer"
+            onClick={handleReset}
+          >
+            <div className="w-10 h-10 rounded bg-dnd-red flex items-center justify-center font-serif font-bold text-xl">
+              📖
             </div>
             <h1 className="text-xl font-serif font-bold tracking-wider uppercase text-white/90 hidden sm:block">
-              Foundry 5e Extractor
+              Tome of Souls
             </h1>
           </div>
 
