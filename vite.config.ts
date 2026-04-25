@@ -17,7 +17,7 @@ function characterPlugin() {
     },
     load(id: string) {
       if (id === resolvedVirtualModuleId) {
-        const charactersDir = path.resolve(__dirname, "public/characters");
+        const charactersDir = path.resolve(__dirname, "characters");
         let files: string[] = [];
         try {
           files = fs
