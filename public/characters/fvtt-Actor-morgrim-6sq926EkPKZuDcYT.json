@@ -6,9 +6,9 @@
   "system": {
     "currency": {
       "pp": 60,
-      "gp": 875,
+      "gp": 919,
       "ep": 31,
-      "sp": 72,
+      "sp": 192,
       "cp": 198
     },
     "abilities": {
@@ -453,10 +453,10 @@
     },
     "spells": {
       "spell1": {
-        "value": 0
+        "value": 3
       },
       "spell2": {
-        "value": 0
+        "value": 2
       },
       "spell3": {
         "value": 0
@@ -551,7 +551,7 @@
           "save": ""
         }
       },
-      "inspiration": false
+      "inspiration": true
     },
     "bastion": {
       "name": "",
@@ -5729,7 +5729,7 @@
               "type": "base",
               "dependents": [
                 {
-                  "uuid": "Scene.fuNcMI1peZglzyC4.Token.qxYrkGQUTuYiBp6g.Actor.P73MRdGpexxu0nHU.ActiveEffect.bwdZQpEPaogbP6Yh"
+                  "uuid": "Scene.74sHPdoopJKOTF1H.Token.TtQtCfFDLAjdbpNa.Actor.5EgB5jblMOWq87wZ.ActiveEffect.Oi57irJQqkN9cDAc"
                 }
               ]
             },
@@ -5759,7 +5759,7 @@
             "systemId": "dnd5e",
             "systemVersion": "5.1.9",
             "lastModifiedBy": "lBfZhvkwevNqguiH",
-            "modifiedTime": 1776528275789
+            "modifiedTime": 1777111740140
           },
           "type": "base"
         }
@@ -8280,7 +8280,7 @@
               "type": "recoverAll"
             }
           ],
-          "spent": 0
+          "spent": 1
         },
         "type": {
           "value": "class",
@@ -8731,7 +8731,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636683505,
-        "modifiedTime": 1775913963753,
+        "modifiedTime": 1777123695081,
         "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
@@ -10784,7 +10784,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 8,
+        "quantity": 9,
         "weight": {
           "value": 2,
           "units": "lb"
@@ -10970,7 +10970,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636688098,
-        "modifiedTime": 1774097424193,
+        "modifiedTime": 1777119599533,
         "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
@@ -20336,7 +20336,7 @@
           "value": "<div class=\"rd__b  rd__b--2\"><p>This potion is a magic item. As a @variantrule[Bonus Action|XPHB], you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains [[/r 2d4 + 2]] @variantrule[Hit Points|XPHB]. The potion's red liquid glimmers when agitated.</p></div>",
           "chat": ""
         },
-        "quantity": 3,
+        "quantity": 2,
         "weight": {
           "value": 0.5,
           "units": "lb"
@@ -20522,8 +20522,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772308135401,
-        "modifiedTime": 1776518852954,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "modifiedTime": 1777123916645,
+        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "sort": 4100000,
       "ownership": {
@@ -21648,87 +21648,6 @@
       }
     },
     {
-      "folder": "RRGalXUBqJa3hwGP",
-      "name": "Призрачная Шляпка",
-      "type": "consumable",
-      "_id": "3UgqHsI4NauZ9rCQ",
-      "img": "icons/consumables/mushrooms/ovate-blue.webp",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "autoDestroy": false,
-          "max": ""
-        },
-        "description": {
-          "value": "",
-          "chat": ""
-        },
-        "identifier": "new-item",
-        "source": {
-          "revision": 1,
-          "rules": "2014"
-        },
-        "identified": false,
-        "unidentified": {
-          "description": "",
-          "name": "Unidentified Consumable"
-        },
-        "container": null,
-        "quantity": 1,
-        "weight": {
-          "value": 0,
-          "units": "lb"
-        },
-        "price": {
-          "value": 0,
-          "denomination": "gp"
-        },
-        "rarity": "",
-        "attunement": "NaN",
-        "attuned": false,
-        "damage": {
-          "base": {
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
-          },
-          "replace": false
-        },
-        "properties": [],
-        "type": {
-          "value": "",
-          "subtype": ""
-        },
-        "equipped": false
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "item-piles": {
-          "item": {
-            "-=overheadCost": null
-          }
-        }
-      },
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1775902267528,
-        "modifiedTime": 1775902267528,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
-      },
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "Jsmz6ad9vobZMb3L",
       "name": "Brooch of Shielding",
       "type": "equipment",
@@ -22211,9 +22130,341 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "folder": "RRGalXUBqJa3hwGP",
+      "name": "Призрачная Шляпка",
+      "type": "consumable",
+      "_id": "mLRzFyyxqlLfxsKR",
+      "img": "icons/consumables/mushrooms/ovate-blue.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "autoDestroy": false,
+          "max": ""
+        },
+        "description": {
+          "value": "<p>Полупрозрачный белый гриб, излучающий <strong>зловещий свет</strong> в тёмных лесах.</p><ul><li>Сырые грибы позволяют <strong>попытаться спастись от яда или болезни</strong>.</li><li>Дают способность <strong>видеть призраков</strong> на <strong>1d4 часа</strong>, но делают уязвимым к их атакам.</li><li>Используется для создания <strong>противоядий</strong>.</li><li>Растёт одиночно на корнях <strong>древних деревьев</strong>.</li></ul>",
+          "chat": ""
+        },
+        "identifier": "new-item",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": "<p>Полупрозрачный белый гриб, излучающий <span style=\"font-weight:600\" data-token-index=\"1\" class=\"notion-enable-hover\"><strong>зловещий свет</strong></span> в тёмных лесах.</p>",
+          "name": "Unidentified Consumable"
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "damage": {
+          "base": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "replace": false
+        },
+        "properties": [],
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1777109080544,
+        "modifiedTime": 1777109080544,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "PydDbhVTgxDhJxBH",
+      "name": "Necklace of Adaptation",
+      "type": "equipment",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as @spell[cloudkill] and @spell[stinking cloud] effects, inhaled poisons, and the breath weapons of some dragons).</p></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "182",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attunement": "NaN",
+        "rarity": "uncommon",
+        "identified": true,
+        "cover": null,
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "type": {
+          "value": "trinket",
+          "baseItem": ""
+        },
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "properties": [
+          "mgc"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true
+          }
+        },
+        "attuned": true,
+        "identifier": "necklace-of-adaptation",
+        "equipped": false,
+        "proficient": null
+      },
+      "img": "https://cdn.5e.tools/2024/img/items/DMG/Necklace%20of%20Adaptation.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "necklace%20of%20adaptation_dmg"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1777124035088,
+        "modifiedTime": 1777124035088,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
-  "effects": [],
+  "effects": [
+    {
+      "name": "Собрать всё",
+      "img": "icons/containers/bags/sack-simple-leahter-green.webp",
+      "origin": "Actor.6sq926EkPKZuDcYT",
+      "disabled": false,
+      "description": "Вы тратите эти 10 минут, собирая всё найденное ранее снаряжение и ценности, которые уже были обнаружены или не были спрятаны.",
+      "statuses": [
+        "gather"
+      ],
+      "flags": {
+        "world": {
+          "exploration-activity": true,
+          "description": "Вы тратите эти 10 минут, собирая всё найденное ранее снаряжение и ценности, которые уже были обнаружены или не были спрятаны.",
+          "shortDesc": "Соберите всё найденное снаряжение.",
+          "requirements": "Вы можете ясно видеть и слышать."
+        },
+        "core": {
+          "statusId": "gather"
+        },
+        "dae": {
+          "specialDuration": []
+        }
+      },
+      "duration": {
+        "seconds": 600,
+        "startTime": 648,
+        "combat": null
+      },
+      "changes": [],
+      "_id": "Uc2WtvviLIJWuf36",
+      "type": "base",
+      "system": {},
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1777125700165,
+        "modifiedTime": 1777125700165,
+        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
+      }
+    }
+  ],
   "flags": {
     "bg3-inspired-hotbar": {
       "activeSet": 0,
@@ -22471,7 +22722,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.1.9",
     "createdTime": 1760103800541,
-    "modifiedTime": 1776529143968,
+    "modifiedTime": 1777125847864,
     "lastModifiedBy": "tlBKPsDZsHtCTLD0",
     "exportSource": {
       "worldId": "heroes-of-the-borderlands",

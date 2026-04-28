@@ -6,9 +6,9 @@
   "system": {
     "currency": {
       "pp": 60,
-      "gp": 908,
+      "gp": 952,
       "ep": 31,
-      "sp": 40,
+      "sp": 160,
       "cp": 3
     },
     "abilities": {
@@ -429,7 +429,7 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 0
+        "value": 2
       },
       "spell2": {
         "value": 0
@@ -509,7 +509,7 @@
       },
       "loyalty": {},
       "hp": {
-        "value": 24,
+        "value": 40,
         "max": null,
         "temp": 0,
         "tempmax": 0,
@@ -1425,7 +1425,7 @@
         "levels": 4,
         "hd": {
           "denomination": "d10",
-          "spent": 1,
+          "spent": 0,
           "additional": ""
         },
         "spellcasting": {
@@ -1825,7 +1825,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636962607,
-        "modifiedTime": 1775912296046,
+        "modifiedTime": 1777107935560,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -2059,7 +2059,7 @@
               "type": "recoverAll"
             }
           ],
-          "spent": 18
+          "spent": 0
         },
         "type": {
           "value": "class",
@@ -2528,7 +2528,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636963106,
-        "modifiedTime": 1776527339549,
+        "modifiedTime": 1777107935560,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -3320,6 +3320,13 @@
           "page": "items.html",
           "source": "XPHB",
           "hash": "unarmed%20strike_xphb"
+        },
+        "dnd5e": {
+          "last": {
+            "tXuqg671lGrdE8Kh": {
+              "attackMode": "oneHanded"
+            }
+          }
         }
       },
       "effects": [
@@ -3403,7 +3410,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636963234,
-        "modifiedTime": 1772308429873,
+        "modifiedTime": 1777124455231,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -3768,8 +3775,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636963565,
-        "modifiedTime": 1776209639461,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "modifiedTime": 1777112010240,
+        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
       "sort": 0,
@@ -4042,7 +4049,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636963706,
-        "modifiedTime": 1776520398610,
+        "modifiedTime": 1777125230812,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -4585,7 +4592,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 5,
+        "quantity": 6,
         "weight": {
           "value": 2,
           "units": "lb"
@@ -4771,7 +4778,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636964379,
-        "modifiedTime": 1774097351993,
+        "modifiedTime": 1777119640994,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -5296,8 +5303,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636964777,
-        "modifiedTime": 1776209640628,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "modifiedTime": 1777117547076,
+        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
       "sort": 0,
@@ -12429,7 +12436,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--1\"><p>The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</p><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"Fight the Greater Evil\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Fight the Greater Evil.</span></span> Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.</p></div></div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"No Mercy for the Wicked\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">No Mercy for the Wicked.</span></span> Ordinary foes might win my mercy, but my sworn enemies do not.</p></div></div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"By Any Means Necessary\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">By Any Means Necessary.</span></span> My qualms can't get in the way of exterminating my foes.</p></div></div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"Restitution\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Restitution.</span></span> If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</p></div></div></div>",
+          "value": "<div class=\"rd__b  rd__b--1\"><p>The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</p><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"Fight the Greater Evil\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Fight the Greater Evil.</span> Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.</p></div></div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"No Mercy for the Wicked\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">No Mercy for the Wicked.</span> Ordinary foes might win my mercy, but my sworn enemies do not.</p></div></div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"By Any Means Necessary\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">By Any Means Necessary.</span> My qualms can't get in the way of exterminating my foes.</p></div></div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"Restitution\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Restitution.</span> If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</p></div></div></div>",
           "chat": ""
         },
         "requirements": "Paladin 3 (Vengeance)",
@@ -12471,7 +12478,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1763212948163,
-        "modifiedTime": 1763212953552,
+        "modifiedTime": 1777120924999,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -13054,7 +13061,7 @@
               "type": "recoverAll"
             }
           ],
-          "spent": 1
+          "spent": 0
         },
         "type": {
           "value": "class",
@@ -13216,7 +13223,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1763212951169,
-        "modifiedTime": 1776525681502,
+        "modifiedTime": 1777107935560,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -14019,7 +14026,7 @@
         },
         "container": null,
         "attuned": false,
-        "equipped": false
+        "equipped": true
       },
       "img": "icons/consumables/potions/potion-tube-corked-red.webp",
       "flags": {
@@ -14047,7 +14054,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772306251109,
-        "modifiedTime": 1776529459393,
+        "modifiedTime": 1777110251144,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "sort": 800000,
@@ -14299,7 +14306,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772308404785,
-        "modifiedTime": 1776520398610,
+        "modifiedTime": 1777125230812,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -14545,253 +14552,6 @@
       }
     },
     {
-      "_id": "hut52GGEYhzfuOzw",
-      "name": "Caltrops (bag of 20)",
-      "type": "consumable",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"><p>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a [[/save ability=dex dc=15]] saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</p></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "151",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
-        },
-        "price": {
-          "value": 1,
-          "denomination": "gp"
-        },
-        "attunement": "",
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "uses": {
-          "max": "1",
-          "recovery": [],
-          "autoDestroy": true,
-          "spent": 0
-        },
-        "damage": {
-          "base": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [
-              "piercing"
-            ],
-            "custom": {
-              "enabled": true,
-              "formula": "1"
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "replace": false
-        },
-        "type": {
-          "value": "trinket",
-          "subtype": ""
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "properties": [],
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "self",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "square",
-                "size": "5",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": null,
-                  "denomination": null,
-                  "bonus": "",
-                  "types": [
-                    "piercing"
-                  ],
-                  "custom": {
-                    "enabled": true,
-                    "formula": "1"
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ],
-              "critical": {
-                "allow": false
-              }
-            },
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "",
-                "formula": "15"
-              }
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
-            "friendlySave": "default"
-          }
-        },
-        "attuned": false,
-        "identifier": "caltrops"
-      },
-      "img": "icons/weapons/thrown/bomb-spiked-purple.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "caltrops%20(bag%20of%2020)_phb"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1772312546041,
-        "modifiedTime": 1776529459393,
-        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
-      },
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "aRBvhpCTCELkhMrx",
       "name": "Crowbar",
       "type": "loot",
@@ -14880,7 +14640,7 @@
           "denomination": "gp"
         },
         "attunement": "",
-        "equipped": false,
+        "equipped": true,
         "rarity": "",
         "identified": true,
         "uses": {
@@ -15239,7 +14999,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1775913015597,
-        "modifiedTime": 1776529474872,
+        "modifiedTime": 1777125230812,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -15504,227 +15264,6 @@
       }
     },
     {
-      "_id": "cj5k4yivQtMLzCt6",
-      "name": "Dust of Disappearance",
-      "type": "consumable",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"><p>Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become &amp;Reference[condition=invisible] for [[/r 2d4]] minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.</p></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "DMG'14",
-          "page": "166",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 0,
-          "units": "lb"
-        },
-        "price": {
-          "value": 0,
-          "denomination": "gp"
-        },
-        "attunement": "NaN",
-        "rarity": "uncommon",
-        "identified": true,
-        "uses": {
-          "max": "1",
-          "recovery": [],
-          "autoDestroy": true,
-          "spent": 0
-        },
-        "damage": {
-          "base": {
-            "number": null,
-            "denomination": null,
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
-          },
-          "replace": false
-        },
-        "type": {
-          "value": "trinket",
-          "subtype": ""
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "properties": [
-          "mgc"
-        ],
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "minute",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "self",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "radius",
-                "size": "10",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "none",
-            "otherActivityAsParentType": true
-          }
-        },
-        "attuned": false,
-        "identifier": "dust-of-disappearance",
-        "equipped": false
-      },
-      "img": "https://cdn.5e.tools/2024/img/items/DMG/Dust%20of%20Disappearance.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "DMG",
-          "hash": "dust%20of%20disappearance_dmg",
-          "propDroppable": "item",
-          "isStandardDragDrop": true
-        },
-        "item-piles": {
-          "item": {
-            "-=overheadCost": null
-          }
-        }
-      },
-      "effects": [],
-      "folder": "Lw7gvqEMokHtK0DE",
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1776523353648,
-        "modifiedTime": 1776529459393,
-        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
-      },
-      "sort": 500000,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "XqkBt5alHZYXjM2c",
       "name": "Oil of Slipperiness",
       "type": "consumable",
@@ -15913,7 +15452,7 @@
         },
         "attuned": false,
         "identifier": "oil-of-slipperiness",
-        "equipped": false
+        "equipped": true
       },
       "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
       "flags": {
@@ -15937,7 +15476,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1776529015697,
-        "modifiedTime": 1776529459393,
+        "modifiedTime": 1777110250288,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "sort": 600000,
@@ -16149,7 +15688,7 @@
         },
         "attuned": false,
         "identifier": "potion-of-greater-healing",
-        "equipped": false
+        "equipped": true
       },
       "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
       "flags": {
@@ -16173,7 +15712,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1776529020242,
-        "modifiedTime": 1776529459393,
+        "modifiedTime": 1777110249906,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "sort": 700000,
@@ -16301,27 +15840,788 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "9cJrdXFHyPWE1BzW",
+      "name": "Manacles",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful [[/save ability=dex dc=20]] check. Breaking them requires a successful [[/save ability=str dc=20]] check. Each set of manacles comes with one key. Without the key, a creature proficient with @item[thieves' tools|PHB] can pick the manacles' lock with a successful [[/save ability=dex dc=15]] check. Manacles have 15 hit points.</p></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "152",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "uses": {
+          "max": "1",
+          "recovery": [],
+          "autoDestroy": false,
+          "spent": 0
+        },
+        "damage": {
+          "base": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "replace": false
+        },
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "properties": [],
+        "magicalBonus": null,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "check",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "check": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "",
+                "formula": "20"
+              },
+              "associated": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Attempt Escape",
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "damage": {
+              "onSave": "half",
+              "parts": [],
+              "critical": {
+                "allow": false
+              }
+            },
+            "friendlySave": "default"
+          },
+          "9DosjAvEYAW0LLK8": {
+            "type": "check",
+            "name": "Attempt to Break",
+            "_id": "9DosjAvEYAW0LLK8",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "check": {
+              "associated": [],
+              "dc": {
+                "calculation": "",
+                "formula": "20"
+              },
+              "ability": "str"
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "damage": {
+              "onSave": "half",
+              "parts": [],
+              "critical": {
+                "allow": false
+              }
+            },
+            "friendlySave": "default"
+          },
+          "9IBcoj8ChH1OiDT8": {
+            "type": "check",
+            "name": "Attempt to Pick",
+            "_id": "9IBcoj8ChH1OiDT8",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "check": {
+              "associated": [
+                "thief"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              },
+              "ability": "dex"
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "damage": {
+              "onSave": "half",
+              "parts": [],
+              "critical": {
+                "allow": false
+              }
+            },
+            "friendlySave": "default"
+          }
+        },
+        "attuned": false,
+        "identifier": "manacles"
+      },
+      "img": "icons/sundries/survival/cuffs-shackles-steel.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "manacles_phb"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1777118702498,
+        "modifiedTime": 1777118702498,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Y9wlgtWCdjS8U3Ki",
+      "name": "Hag Eye",
+      "type": "equipment",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG 2024",
+          "page": "265",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>A <i>Hag Eye</i> has 3 charges. While wearing or holding this item, you can expend 1 charge to cast @spell[Darkvision|XPHB] (targeting yourself only) or @spell[See Invisibility|XPHB]. The <i>Hag Eye</i> regains all expended charges daily at dawn.</p><div data-roll-name-ancestor=\"Coven Sensor\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Coven Sensor.</span></span> The <i>Hag Eye</i> is usually entrusted to a hag's minion for safekeeping and transport. As a @action[Magic|XPHB] action, a hag who belongs to the coven that created the <i>Hag Eye</i> can see what the <i>Hag Eye</i> sees if the hag and the <i>Hag Eye</i> are on the same plane of existence. This effect lasts as long as the hag maintains @status[Concentration|XPHB]. Multiple hags in the coven can see through the <i>Hag Eye</i> simultaneously.</p></div><div data-roll-name-ancestor=\"Creating a Hag Eye\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Creating a Hag Eye.</span></span> Only a hag coven can craft this item, which is made from a real eye coated in varnish and often fitted to a pendant or another wearable item. A hag coven can have only one <i>Hag Eye</i> at a time, and creating a new one requires all three members of the coven to perform a special rite. This rite takes 1 hour, and the hags can't perform it if one or more of them has the &amp;Reference[condition=Incapacitated] condition. If the hags take any other actions during this rite, the rite fails and ends.</p></div></div>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "identified": true,
+        "rarity": "uncommon",
+        "type": {
+          "value": "wondrous",
+          "baseItem": ""
+        },
+        "properties": [
+          "mgc"
+        ],
+        "attunement": "NaN",
+        "uses": {
+          "max": "3",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "3"
+            }
+          ]
+        },
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "activities": {
+          "dnd5eactivity000": {
+            "type": "cast",
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "scaling": {}
+                }
+              ],
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true
+            },
+            "spell": {
+              "uuid": "Compendium.plutonium-faux-id--7b22746167223a227370656c6c222c2274657874223a226461726b766973696f6e7c78706862227d.custom.Item.0000000000000000",
+              "level": 2,
+              "properties": [
+                "vocal",
+                "somatic",
+                "material"
+              ],
+              "spellbook": true,
+              "challenge": {
+                "override": false
+              }
+            },
+            "_id": "dnd5eactivity000",
+            "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            }
+          },
+          "dnd5eactivity001": {
+            "type": "cast",
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "scaling": {}
+                }
+              ],
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true
+            },
+            "spell": {
+              "uuid": "Compendium.plutonium-faux-id--7b22746167223a227370656c6c222c2274657874223a2273656520696e7669736962696c6974797c78706862227d.custom.Item.0000000000000000",
+              "level": 2,
+              "properties": [
+                "vocal",
+                "somatic",
+                "material"
+              ],
+              "spellbook": true,
+              "challenge": {
+                "override": false
+              }
+            },
+            "_id": "dnd5eactivity001",
+            "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            }
+          }
+        },
+        "identifier": "hag-eye",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "equipped": true,
+        "proficient": null
+      },
+      "img": "https://cdn.5e.tools/2024/img/items/XDMG/Hag%20Eye.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "XDMG",
+          "hash": "hag%20eye_xdmg"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1777125846575,
+        "modifiedTime": 1777125972355,
+        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [
     {
-      "name": "Поиск скрытого",
-      "img": "icons/skills/trades/academics-investigation-study-blue.webp",
+      "name": "На страже!",
+      "img": "icons/magic/perception/eye-slit-orange.webp",
       "origin": "Actor.q4AkarXQON4Su7UN",
-      "disabled": true,
-      "description": "Сделайте проверку [[/check perception]]{Внимательности} или [[/check investigation]]{Анализа}. Вы находите всё скрытое с DC меньше или равным результату вашей проверки: ловушки, потайные двери, ценности.",
+      "disabled": false,
+      "description": "Ваша группа не может быть застигнута врасплох враждебными существами, которых вы можете видеть. Если вы бросаете инициативу, до своего первого хода вы можете использовать реакцию, чтобы выполнить одно из действий: Атака, Рывок, Уклонение, Скрыться или заговор.",
       "statuses": [
-        "search"
+        "watch"
       ],
       "flags": {
         "world": {
           "exploration-activity": true,
-          "description": "Сделайте проверку [[/check perception]]{Внимательности} или [[/check investigation]]{Анализа}. Вы находите всё скрытое с DC меньше или равным результату вашей проверки: ловушки, потайные двери, ценности.",
-          "shortDesc": "Тщательный поиск в области до 50 футов.",
-          "requirements": "вы можете видеть и слышать."
+          "description": "Ваша группа не может быть застигнута врасплох враждебными существами, которых вы можете видеть. Если вы бросаете инициативу, до своего первого хода вы можете использовать реакцию, чтобы выполнить одно из действий: Атака, Рывок, Уклонение, Скрыться или заговор.",
+          "shortDesc": "Вы стоите на страже, готовясь к любой неожиданности.",
+          "requirements": "вы не ослеплены и не оглохли и можете ясно видеть окружающую обстановку."
         },
         "core": {
-          "statusId": "search"
+          "statusId": "watch"
         },
         "dae": {
           "specialDuration": []
@@ -16329,11 +16629,11 @@
       },
       "duration": {
         "seconds": 600,
-        "startTime": 570,
+        "startTime": 648,
         "combat": null
       },
       "changes": [],
-      "_id": "1t4HpVmiOWCOJuBd",
+      "_id": "HVWG9luQGcREmrqJ",
       "type": "base",
       "system": {},
       "tint": "#ffffff",
@@ -16343,8 +16643,8 @@
         "coreVersion": "13.348",
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
-        "createdTime": 1776523291574,
-        "modifiedTime": 1776529332141,
+        "createdTime": 1777125757423,
+        "modifiedTime": 1777125757423,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       }
     }
@@ -16358,30 +16658,32 @@
             "cols": 5,
             "rows": 3,
             "items": {
-              "0-1": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.PWQmZX2AbK4s3HU7"
-              },
-              "1-1": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.CdptgFt5zWI6rytT"
-              },
-              "2-1": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.wths3S7STlO1fLec"
-              },
               "4-2": null,
+              "0-2": null,
+              "3-2": null,
               "0-0": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.TCPrmshONACV7Noo"
               },
-              "0-2": null,
               "1-0": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.bsRgKnuMQJoy3WQU"
+              },
+              "2-0": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.almU014VQfFYAeGI"
               },
               "3-0": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.ulG5DoDRooMOTmIu"
               },
-              "3-2": null,
-              "2-0": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.almU014VQfFYAeGI"
-              }
+              "4-0": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.CdptgFt5zWI6rytT"
+              },
+              "0-1": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.PWQmZX2AbK4s3HU7"
+              },
+              "1-1": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.wths3S7STlO1fLec"
+              },
+              "4-1": null,
+              "2-1": null
             },
             "id": "hotbar-container",
             "index": 0
@@ -16436,25 +16738,26 @@
               "3-1": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.v8FomMWYj5FsnAb9"
               },
-              "2-1": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.hut52GGEYhzfuOzw"
-              },
-              "0-2": null,
-              "1-1": {
+              "0-2": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.6qQPteDeBMFfuN7a"
               },
-              "2-2": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.IW2RDyV2F0w37Wca"
-              },
-              "3-2": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.cj5k4yivQtMLzCt6"
-              },
+              "1-1": null,
+              "2-2": null,
               "1-0": null,
               "3-0": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.ENFzaGSFb0ATH8h5"
               },
               "4-2": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.XqkBt5alHZYXjM2c"
+              },
+              "3-2": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.IW2RDyV2F0w37Wca"
+              },
+              "2-1": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.9cJrdXFHyPWE1BzW"
+              },
+              "1-2": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.Y9wlgtWCdjS8U3Ki"
               }
             },
             "id": "hotbar-container",
@@ -16566,7 +16869,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.1.9",
     "createdTime": 1760103793382,
-    "modifiedTime": 1776529703485,
+    "modifiedTime": 1777126057717,
     "lastModifiedBy": "T4VVicZmWg6I2cRZ",
     "exportSource": {
       "worldId": "heroes-of-the-borderlands",

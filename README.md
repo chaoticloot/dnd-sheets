@@ -1,39 +1,20 @@
-# Tome of Souls
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-🔗 https://chaoticloot.github.io/tome-of-souls/
+# Run and deploy your AI Studio app
 
-A lightweight web viewer for Foundry VTT character files.
+This contains everything you need to run your app locally.
 
-## ✨ What it does
+View your app in AI Studio: https://ai.studio/apps/a702a42d-bced-4d7d-af0d-b1622eca57b4
 
-Tome of Souls allows players to open and view their Foundry VTT character data outside of the game — anytime, anywhere.
+## Run Locally
 
-- Upload your character file
-- Browse stats, abilities, and details
-- No Foundry server required
+**Prerequisites:**  Node.js
 
-## 📦 Usage
 
-1. Export your character from Foundry VTT (JSON file)
-2. Open the site
-3. Upload the file
-4. View your character
-
-## 🎯 Purpose
-
-Built for DMs and players who want quick, convenient access to character sheets without launching Foundry.
-
-## ⚙️ Tech
-
-- Static site (GitHub Pages)
-- Runs entirely in the browser
-- No backend, no data storage
-
-## 🔒 Privacy
-
-All files are processed locally in your browser.  
-Nothing is uploaded or stored.
-
-## 📌 Status
-
-Work in progress
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
