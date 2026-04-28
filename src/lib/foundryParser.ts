@@ -41,6 +41,7 @@ export interface ParsedCharacter {
     school: string; 
     description: string; 
     prepared?: boolean;
+    preparationMode?: string;
     action?: string;
     duration?: string;
     concentration?: boolean;
@@ -48,11 +49,13 @@ export interface ParsedCharacter {
     targets?: string;
     range?: string;
   }>;
+  resources: Array<{ name: string; max: number; value: number }>;
   inventory: Array<{ name: string; quantity: number; weight: number; equipped?: boolean; description?: string; armorValue?: number; armorDexCap?: number; isShield?: boolean; price?: { value: number; denomination: string } }>;
   spellcasting?: {
     ability: string;
     dc: number;
     attackBonus: number;
+    slots: Record<string, { value: number; max: number; level?: number }>;
   };
   currency: {
     pp: number;
@@ -72,6 +75,30 @@ const ABILITY_MAP: Record<string, string> = {
   str: 'Strength', dex: 'Dexterity', con: 'Constitution',
   int: 'Intelligence', wis: 'Wisdom', cha: 'Charisma'
 };
+
+const SPELL_SLOTS_TABLE = [
+  [], // 0
+  [2, 0, 0, 0, 0, 0, 0, 0, 0], // 1
+  [3, 0, 0, 0, 0, 0, 0, 0, 0], // 2
+  [4, 2, 0, 0, 0, 0, 0, 0, 0], // 3
+  [4, 3, 0, 0, 0, 0, 0, 0, 0], // 4
+  [4, 3, 2, 0, 0, 0, 0, 0, 0], // 5
+  [4, 3, 3, 0, 0, 0, 0, 0, 0], // 6
+  [4, 3, 3, 1, 0, 0, 0, 0, 0], // 7
+  [4, 3, 3, 2, 0, 0, 0, 0, 0], // 8
+  [4, 3, 3, 3, 1, 0, 0, 0, 0], // 9
+  [4, 3, 3, 3, 2, 0, 0, 0, 0], // 10
+  [4, 3, 3, 3, 2, 1, 0, 0, 0], // 11
+  [4, 3, 3, 3, 2, 1, 0, 0, 0], // 12
+  [4, 3, 3, 3, 2, 1, 1, 0, 0], // 13
+  [4, 3, 3, 3, 2, 1, 1, 0, 0], // 14
+  [4, 3, 3, 3, 2, 1, 1, 1, 0], // 15
+  [4, 3, 3, 3, 2, 1, 1, 1, 0], // 16
+  [4, 3, 3, 3, 2, 1, 1, 1, 1], // 17
+  [4, 3, 3, 3, 3, 1, 1, 1, 1], // 18
+  [4, 3, 3, 3, 3, 2, 1, 1, 1], // 19
+  [4, 3, 3, 3, 3, 2, 2, 1, 1], // 20
+];
 
 const SKILL_MAP: Record<string, string> = {
   acr: 'Acrobatics', ani: 'Animal Handling', arc: 'Arcana', ath: 'Athletics',
@@ -135,6 +162,12 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
   let totalLevel = 0;
   const hitDiceMap: Record<string, {count: number, denom: string}> = {};
   let baseHpFromAdvancement = 0;
+  const classLevels: Record<string, number> = {};
+  let fullCasterLevel = 0;
+  let halfCasterLevel = 0;
+  let thirdCasterLevel = 0;
+  let artificerLevel = 0;
+  let pactLevel = 0;
 
   // 1. First pass to calculate level and HP from advancement
   if (Array.isArray(json.items)) {
@@ -142,8 +175,16 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
       if (item.type === 'class') {
         const level = item.system?.levels || 1;
         classesArray.push(`${item.name} ${level}`);
+        classLevels[item.name.toLowerCase()] = level;
         totalLevel += level;
         
+        const prog = item.system?.spellcasting?.progression;
+        if (prog === 'full') fullCasterLevel += level;
+        else if (prog === 'half') halfCasterLevel += level;
+        else if (prog === 'third') thirdCasterLevel += level;
+        else if (prog === 'artificer') artificerLevel += level;
+        else if (prog === 'pact') pactLevel += level;
+
         let hdDenom = item.system?.hd?.denomination || item.system?.hitDice || 'd8';
         if (hdDenom.startsWith('d')) hdDenom = hdDenom.substring(1);
         
@@ -255,9 +296,48 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
   const features: any[] = [];
   const spells: any[] = [];
   const inventory: any[] = [];
+  const resources: any[] = [];
+
+  // Helper to evaluate max expressions like "@classes.paladin.levels * 5"
+  const evaluateMax = (maxExpr: string | number): number => {
+    if (typeof maxExpr === 'number') return maxExpr;
+    if (!maxExpr) return 0;
+    
+    let expr = String(maxExpr);
+    // replace ability mods
+    expr = expr.replace(/@abilities\.([a-zA-Z]+)\.mod/g, (_, ab) => {
+      return String(abilities[ab]?.mod || 0);
+    });
+    // replace class levels
+    expr = expr.replace(/@classes\.([a-zA-Z0-9_\-]+)\.levels/g, (_, cls) => {
+      return String(classLevels[cls.toLowerCase()] || 0);
+    });
+    
+    expr = expr.replace(/[^0-9+\-*/().]/g, '');
+    try {
+      return Math.floor(new Function('return ' + expr)());
+    } catch {
+      return parseInt(expr) || 0;
+    }
+  };
 
   if (Array.isArray(json.items)) {
     json.items.forEach((item: any) => {
+      const isConsumable = item.type === 'consumable' || item.type === 'loot';
+      
+      // Parse Uses for resources (non-consumable items that have recovery)
+      if (!isConsumable && item.system?.uses && item.system.uses.max && item.system.uses.recovery?.length > 0) {
+        const max = evaluateMax(item.system.uses.max);
+        if (max > 0) {
+           const spent = item.system.uses.spent || 0;
+           resources.push({
+              name: item.name,
+              max: max,
+              value: Math.max(0, max - spent)
+           });
+        }
+      }
+
       // Inventory
       if (['equipment', 'consumable', 'loot', 'tool', 'backpack'].includes(item.type)) {
         const parsedWeight = typeof item.system?.weight === 'object' ? item.system?.weight?.value : item.system?.weight;
@@ -333,6 +413,7 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
         const materials = item.system?.materials?.value || '';
 
         const isPrepared = !!item.system?.preparation?.prepared || !!item.system?.prepared || (typeof item.system?.prepared === 'number' && item.system.prepared > 0);
+        const prepMode = item.system?.preparation?.mode || '';
         
         spells.push({
           name: item.name,
@@ -340,6 +421,7 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
           school: item.system?.school || '',
           description: parseEnrichers(item.system?.description?.value || ''),
           prepared: isPrepared,
+          preparationMode: prepMode,
           action,
           duration,
           targets,
@@ -476,12 +558,52 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
 
   const spellcastingStat = sys.attributes?.spellcasting as string | undefined;
   let spellcastingObj;
-  if (spellcastingStat && abilities[spellcastingStat]) {
-      const scMod = abilities[spellcastingStat].mod;
+  
+  // Calculate slot maximums from caster levels
+  const totalCasterLevel = Math.min(20, fullCasterLevel + Math.floor(halfCasterLevel / 2) + Math.floor(thirdCasterLevel / 3) + Math.ceil(artificerLevel / 2));
+  const tableSlots = SPELL_SLOTS_TABLE[totalCasterLevel] || [0,0,0,0,0,0,0,0,0];
+  
+  let pactMax = 0;
+  let pactLevelSlot = 1;
+  if (pactLevel > 0) {
+    if (pactLevel >= 1 && pactLevel <= 2) pactLevelSlot = 1;
+    else if (pactLevel >= 3 && pactLevel <= 4) pactLevelSlot = 2;
+    else if (pactLevel >= 5 && pactLevel <= 6) pactLevelSlot = 3;
+    else if (pactLevel >= 7 && pactLevel <= 8) pactLevelSlot = 4;
+    else if (pactLevel >= 9) pactLevelSlot = 5;
+    
+    if (pactLevel == 1) pactMax = 1;
+    else if (pactLevel >= 2 && pactLevel <= 10) pactMax = 2;
+    else if (pactLevel >= 11 && pactLevel <= 16) pactMax = 3;
+    else if (pactLevel >= 17) pactMax = 4;
+  }
+
+  if (spellcastingStat && abilities[spellcastingStat] || totalCasterLevel > 0 || pactLevel > 0) {
+      const stat = spellcastingStat || 'int';
+      const scMod = abilities[stat]?.mod || 0;
+      
+      const slots: Record<string, {value: number, max: number, level?: number}> = {};
+      if (sys.spells) {
+         for (let i = 1; i <= 9; i++) {
+             const pd = sys.spells[`spell${i}`];
+             const calcMax = tableSlots[i-1] || 0;
+             const finalMax = (pd && pd.max !== undefined && pd.max !== null) ? Math.max(pd.max, calcMax) : calcMax;
+             if (finalMax > 0 || (pd && pd.value > 0)) {
+                 slots[i] = { value: pd?.value || 0, max: finalMax };
+             }
+         }
+         const pactData = sys.spells['pact'];
+         const finalPactMax = (pactData && pactData.max !== undefined && pactData.max !== null) ? Math.max(pactData.max, pactMax) : pactMax;
+         if (finalPactMax > 0 || (pactData && pactData.value > 0)) {
+             slots['pact'] = { value: pactData?.value || 0, max: finalPactMax, level: pactData?.level || pactLevelSlot };
+         }
+      }
+
       spellcastingObj = {
-          ability: spellcastingStat,
+          ability: stat,
           dc: 8 + scMod + profBonus,
-          attackBonus: scMod + profBonus
+          attackBonus: scMod + profBonus,
+          slots
       };
   }
 
@@ -498,6 +620,7 @@ export function parseFoundryJSON(json: any): ParsedCharacter {
     abilities,
     skills,
     spellcasting: spellcastingObj,
+    resources,
     
     hp: {
       value: sys.attributes?.hp?.value || 0,

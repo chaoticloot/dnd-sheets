@@ -1,10 +1,9 @@
 /// <reference types="vite/client" />
 
-declare module 'virtual:characters' {
-  export const characters: {
-    filename: string;
+declare module "virtual:characters" {
+  export const characters: Array<{
     id: string;
-    name: string;
     updatedAt: string;
-  }[];
+    name?: string;
+  }>;
 }

@@ -97,9 +97,9 @@ function MainUI() {
   };
 
   return (
-    <div className="min-h-screen bg-[#d1d1d1]">
+    <div className="min-h-screen bg-[#1b1c22] lg:bg-[#d1d1d1]">
       {/* Top Banner (hidden during print) */}
-      <header className="bg-dnd-ink text-dnd-parchment p-4 shadow-md no-print sticky top-0 z-10">
+      <header className="bg-dnd-ink text-dnd-parchment p-4 shadow-md no-print sticky top-0 z-[100]">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <div
             className="flex items-center space-x-3 cursor-pointer"
@@ -117,18 +117,18 @@ function MainUI() {
             {(character || error) && (
               <button
                 onClick={handlePrint}
-                className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer"
+                className="hidden lg:flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer"
                 title="Print or Save as PDF"
               >
                 <Printer size={16} />{" "}
-                <span className="hidden sm:inline">Print / Save PDF</span>
+                <span className="hidden w-0 lg:w-auto lg:inline">Print / Save PDF</span>
               </button>
             )}
 
             {(character || error) && (
               <select
                 onChange={handleSelectCharacter}
-                className="bg-[#2a2c35] hover:bg-[#343642] border border-gray-600 text-gray-200 px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer outline-none focus:ring-2 focus:ring-dnd-red pr-8"
+                className="bg-[#2a2c35] hover:bg-[#343642] border border-gray-600 text-gray-200 px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer outline-none focus:ring-2 focus:ring-dnd-red pr-8 max-w-[50vw] md:max-w-[300px] text-ellipsis"
                 defaultValue=""
               >
                 <option value="" disabled className="text-gray-400 bg-gray-900">
@@ -154,7 +154,7 @@ function MainUI() {
         </div>
       </header>
 
-      <main className="pb-12 print:pb-0">
+      <main className="pb-0 lg:pb-12 print:pb-0 min-h-screen lg:min-h-0 bg-[#1b1c22] lg:bg-transparent">
         {!character && !error ? (
           <div className="pt-8 px-4 max-w-5xl mx-auto">
             {characters.length > 0 && (
@@ -211,7 +211,7 @@ function MainUI() {
         )}
       </main>
 
-      <footer className="text-center pb-8 pt-12 text-gray-600 text-sm no-print">
+      <footer className="hidden lg:block text-center pb-8 pt-12 text-gray-600 text-sm no-print">
         <p>
           This tool is not affiliated with, endorsed, sponsored, or specifically
           approved by Wizards of the Coast LLC.
