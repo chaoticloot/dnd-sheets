@@ -6,9 +6,9 @@
   "system": {
     "currency": {
       "pp": 60,
-      "gp": 877,
-      "ep": 29,
-      "sp": 166,
+      "gp": 1037,
+      "ep": 179,
+      "sp": 86,
       "cp": 8
     },
     "abilities": {
@@ -429,10 +429,10 @@
     },
     "spells": {
       "spell1": {
-        "value": 3
+        "value": 2
       },
       "spell2": {
-        "value": 3
+        "value": 1
       },
       "spell3": {
         "value": 0
@@ -510,7 +510,7 @@
       },
       "loyalty": {},
       "hp": {
-        "value": 25,
+        "value": 15,
         "max": null,
         "temp": 0,
         "tempmax": 0,
@@ -6966,7 +6966,7 @@
           "denomination": "gp"
         },
         "attunement": "",
-        "equipped": true,
+        "equipped": false,
         "rarity": "",
         "identified": true,
         "cover": null,
@@ -7790,269 +7790,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760637939235,
-        "modifiedTime": 1760651418688,
+        "modifiedTime": 1777413161295,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "1zG2qQ5EpXLixozd",
-      "name": "Greatclub",
-      "type": "weapon",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "149",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 10,
-          "units": "lb"
-        },
-        "price": {
-          "value": 2,
-          "denomination": "sp"
-        },
-        "attunement": "",
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "cover": null,
-        "range": {
-          "value": 0,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "damage": {
-          "versatile": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "base": {
-            "number": 1,
-            "denomination": 8,
-            "bonus": "",
-            "types": [
-              "bludgeoning"
-            ],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          }
-        },
-        "armor": {
-          "value": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "properties": [
-          "two"
-        ],
-        "proficient": null,
-        "type": {
-          "value": "simpleM",
-          "baseItem": "greatclub"
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "crewed": false,
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "5",
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "melee",
-                "classification": "weapon"
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": []
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
-            "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1
-          }
-        },
-        "attuned": false,
-        "ammunition": {},
-        "identifier": "greatclub",
-        "mastery": ""
-      },
-      "img": "icons/weapons/clubs/club-heavy-barbed-grey.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "greatclub_phb"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1760637939537,
-        "modifiedTime": 1772899416720,
-        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
       },
       "folder": null,
       "sort": 0,
@@ -8921,8 +8660,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760637940592,
-        "modifiedTime": 1760637940592,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "modifiedTime": 1778936017260,
+        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
       },
       "folder": null,
       "sort": 0,
@@ -10814,7 +10553,7 @@
               "type": "recoverAll"
             }
           ],
-          "spent": 0
+          "spent": 2
         },
         "type": {
           "value": "class",
@@ -11033,7 +10772,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760639232810,
-        "modifiedTime": 1777119401768,
+        "modifiedTime": 1778940181455,
         "lastModifiedBy": "9FHYVzDhQdLlxGYF"
       },
       "folder": null,
@@ -16315,7 +16054,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 99,
+        "quantity": 97,
         "weight": {
           "value": 0.05,
           "units": "lb"
@@ -16380,7 +16119,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1763824621070,
-        "modifiedTime": 1777111334763,
+        "modifiedTime": 1778933210219,
         "lastModifiedBy": "9FHYVzDhQdLlxGYF"
       },
       "folder": null,
@@ -16393,7 +16132,7 @@
       "type": "loot",
       "name": "Кубок з Рога Мінотавра",
       "_id": "YqqOTAILnUVyj0p4",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "icons/commodities/bones/horn-drinking-white.webp",
       "system": {
         "description": {
           "value": "",
@@ -16434,8 +16173,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1766244507642,
-        "modifiedTime": 1772312561829,
-        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
+        "modifiedTime": 1777928596655,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "ownership": {
         "default": 0
@@ -16529,7 +16268,7 @@
       "type": "loot",
       "name": "Зуби та прах тентаклів",
       "_id": "bJCBaZ7qPUs20gXd",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
       "system": {
         "description": {
           "value": "<p>Зуби та прах тентаклів</p><p></p>",
@@ -16570,8 +16309,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772301178194,
-        "modifiedTime": 1772301221317,
-        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
+        "modifiedTime": 1777928631204,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "ownership": {
         "default": 0
@@ -16633,7 +16372,7 @@
         "equipped": false,
         "proficient": null
       },
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "icons/equipment/chest/robe-collared-pink.webp",
       "flags": {
         "plutonium": {
           "page": "items.html",
@@ -16660,8 +16399,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772305293455,
-        "modifiedTime": 1772305293455,
-        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
+        "modifiedTime": 1777928566812,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "sort": 2300000,
       "ownership": {
@@ -17557,7 +17296,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772313636224,
-        "modifiedTime": 1772900344132,
+        "modifiedTime": 1778926540280,
         "lastModifiedBy": "9FHYVzDhQdLlxGYF"
       },
       "folder": null,
@@ -19459,7 +19198,7 @@
       "img": "icons/sundries/books/book-backed-wood-tan.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>Обширные записи о ведении сельского хозяйства.</p><p>После встречи с гоблинами страницы покрыты коричневыми следами.</p>",
           "chat": ""
         },
         "identifier": "new-item",
@@ -19497,7 +19236,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1775911328044,
-        "modifiedTime": 1775911386611,
+        "modifiedTime": 1777928711659,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "ownership": {
@@ -20860,6 +20599,700 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "HI3MDpfHnEXH2kx5",
+      "name": "Greatclub",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "149",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "sp"
+        },
+        "attunement": "NaN",
+        "rarity": "",
+        "identified": true,
+        "cover": null,
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [
+          "two"
+        ],
+        "type": {
+          "value": "simpleM",
+          "baseItem": "greatclub"
+        },
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "magicalBonus": null,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "",
+            "otherActivityAsParentType": true,
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1
+          }
+        },
+        "attuned": false,
+        "ammunition": {},
+        "identifier": "greatclub",
+        "mastery": "",
+        "equipped": false,
+        "proficient": null
+      },
+      "img": "icons/weapons/clubs/club-heavy-barbed-grey.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "greatclub_phb"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778936868669,
+        "modifiedTime": 1778936868669,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "Lw7gvqEMokHtK0DE",
+      "name": "Tenser's Ring",
+      "type": "equipment",
+      "_id": "EnuRngRNLf8Uvkmj",
+      "img": "icons/equipment/finger/ring-shell-white-blue.webp",
+      "system": {
+        "activities": {
+          "jf5oqi3ilc6dsY2R": {
+            "type": "cast",
+            "spell": {
+              "uuid": "Item.feNBgUPtYL7jxmxc",
+              "challenge": {
+                "override": false
+              },
+              "properties": [
+                "vocal",
+                "somatic",
+                "material"
+              ],
+              "spellbook": true,
+              "ability": "",
+              "level": 1
+            },
+            "_id": "jf5oqi3ilc6dsY2R",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": null,
+              "recovery": [],
+              "max": ""
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "never",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "identifier": "new-item",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 250,
+          "denomination": "gp"
+        },
+        "rarity": "uncommon",
+        "attunement": "NaN",
+        "attuned": false,
+        "crewed": false,
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "properties": [
+          "mgc"
+        ],
+        "strength": null,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "equipped": true,
+        "proficient": null
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778938267399,
+        "modifiedTime": 1778939329881,
+        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tenser's Floating Disk",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "282",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p></div>",
+          "chat": ""
+        },
+        "level": 1,
+        "school": "con",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "ritual"
+        ],
+        "materials": {
+          "value": "a drop of mercury",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "count": "1",
+            "type": "space",
+            "choice": false
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "method": "spell",
+        "prepared": 0,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true
+          }
+        },
+        "identifier": "tensers-floating-disk",
+        "sourceClass": "druid"
+      },
+      "img": "icons/consumables/food/candy-pattie-pink-white.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "tenser's%20floating%20disk_phb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Wizard"
+          ]
+        },
+        "dnd5e": {
+          "cachedFor": ".Item.EnuRngRNLf8Uvkmj.Activity.jf5oqi3ilc6dsY2R"
+        }
+      },
+      "effects": [
+        {
+          "_id": "dnd5espellchange",
+          "type": "enchantment",
+          "name": "Spell Changes",
+          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+          "origin": "Actor.GTsiLmkzfdu8dplo.Item.EnuRngRNLf8Uvkmj.Activity.jf5oqi3ilc6dsY2R",
+          "changes": [
+            {
+              "key": "system.properties",
+              "mode": 2,
+              "value": "-vocal"
+            },
+            {
+              "key": "system.properties",
+              "mode": 2,
+              "value": "-somatic"
+            },
+            {
+              "key": "system.properties",
+              "mode": 2,
+              "value": "-material"
+            }
+          ],
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": 732,
+            "combat": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "folder": "mvZ97puV0LiixGoM",
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778938267587,
+        "modifiedTime": 1778938267587,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "sort": 0,
+      "_id": "7rYR7ccewZmadrSD",
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [
@@ -20888,11 +21321,11 @@
       },
       "duration": {
         "seconds": 600,
-        "startTime": 624,
+        "startTime": 732,
         "combat": null
       },
       "changes": [],
-      "_id": "XlqNXoZxXwENTzxb",
+      "_id": "ajBV6hWCyNXjapcM",
       "type": "base",
       "system": {},
       "tint": "#ffffff",
@@ -20902,9 +21335,9 @@
         "coreVersion": "13.348",
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
-        "createdTime": 1777121532980,
-        "modifiedTime": 1777121532980,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "createdTime": 1778936576056,
+        "modifiedTime": 1778936576056,
+        "lastModifiedBy": "9FHYVzDhQdLlxGYF"
       }
     }
   ],
@@ -20920,9 +21353,6 @@
               "4-0": {
                 "uuid": "Actor.GTsiLmkzfdu8dplo.Item.y1sARUsNsgVUqrrS"
               },
-              "1-0": {
-                "uuid": "Actor.GTsiLmkzfdu8dplo.Item.1zG2qQ5EpXLixozd"
-              },
               "1-1": {
                 "uuid": "Actor.GTsiLmkzfdu8dplo.Item.NvhnuVbgj2TptlDi.Activity.dnd5eactivity000"
               },
@@ -20934,6 +21364,9 @@
               },
               "3-0": {
                 "uuid": "Actor.GTsiLmkzfdu8dplo.Item.t8GdTCBbFM6ht76R"
+              },
+              "1-0": {
+                "uuid": "Actor.GTsiLmkzfdu8dplo.Item.HI3MDpfHnEXH2kx5"
               }
             },
             "id": "hotbar-container",
@@ -20976,6 +21409,9 @@
               },
               "4-0": {
                 "uuid": "Actor.GTsiLmkzfdu8dplo.Item.yfcxo2E3gtret7td"
+              },
+              "1-2": {
+                "uuid": "Actor.GTsiLmkzfdu8dplo.Item.7rYR7ccewZmadrSD"
               }
             },
             "id": "hotbar-container",
@@ -21086,7 +21522,7 @@
     },
     "midi-qol": {
       "actions": {
-        "action": false
+        "action": true
       }
     },
     "tidy5e-sheet": {
@@ -21104,15 +21540,517 @@
     },
     "sequencer": {
       "effects": []
-    }
+    },
+    "bg3-hud-core": {
+      "hudState": {
+        "version": 2,
+        "views": {
+          "list": [
+            {
+              "id": "view-y6S4zlJJLAFvrqvp",
+              "name": "Default",
+              "icon": "fa-bookmark",
+              "hotbarState": {
+                "hotbar": {
+                  "grids": [
+                    {
+                      "rows": 3,
+                      "cols": 4,
+                      "items": {
+                        "0-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.1cyOoKawgXWIcIhF",
+                          "name": "Combat Wild Shape",
+                          "img": "icons/commodities/claws/claw-brown-black.webp",
+                          "type": "Item"
+                        },
+                        "1-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.ugzKvJxR5jxNPn8A",
+                          "name": "Wild Companion",
+                          "img": "icons/creatures/mammals/spirit-deer-herd-blue.webp",
+                          "type": "Item"
+                        },
+                        "2-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.y1sARUsNsgVUqrrS",
+                          "name": "Wild Shape",
+                          "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+                          "type": "Item",
+                          "uses": {
+                            "value": 1,
+                            "max": 2
+                          }
+                        },
+                        "3-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.jomQfu31UL5P1evU",
+                          "name": "War Caster",
+                          "img": "modules/plutonium/media/icon/feat/phb-war-caster.webp",
+                          "type": "Item"
+                        }
+                      }
+                    },
+                    {
+                      "rows": 3,
+                      "cols": 6,
+                      "items": {
+                        "0-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.N9oYPhSLEnnr6aJk",
+                          "name": "Create Bonfire",
+                          "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "1-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.u8Ys6iPpecAbieKH",
+                          "name": "Gust",
+                          "img": "icons/magic/air/wind-stream-blue-gray.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "2-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.dfBZL0Lrx2fVL7xL",
+                          "name": "Primal Savagery",
+                          "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "3-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.n9r1O2eEFnvuhO7G",
+                          "name": "Animal Friendship",
+                          "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "4-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.FmB88qcEPRjX0jxh",
+                          "name": "Cure Wounds",
+                          "img": "icons/magic/life/cross-flared-green.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "5-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.ABzYgllV1dYKMkku",
+                          "name": "Healing Word",
+                          "img": "icons/magic/life/heart-cross-blue.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "0-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.giYI2hAHp204dhNM",
+                          "name": "Ice Knife",
+                          "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "1-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.P6eMYj7dT3HGzunO",
+                          "name": "Speak with Animals",
+                          "img": "icons/creatures/mammals/deer-antlers-blue.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "2-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.1SESWawyHSCMUS0g",
+                          "name": "Thunderwave",
+                          "img": "icons/magic/lightning/barrier-wall-shield-gray.webp",
+                          "type": "Item",
+                          "depleted": false
+                        },
+                        "3-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.KiqyZixvs2mtpUsH",
+                          "name": "Wither and Bloom",
+                          "img": "icons/magic/nature/plant-vines-skull-green.webp",
+                          "type": "Item",
+                          "depleted": false
+                        }
+                      }
+                    },
+                    {
+                      "rows": 3,
+                      "cols": 5,
+                      "items": {
+                        "0-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.S0OD66JpVpQ4YPiG",
+                          "name": "Hempen Rope (50 feet)",
+                          "img": "icons/sundries/survival/rope-coiled-wrapped-brown.webp",
+                          "type": "Item",
+                          "quantity": 1,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "1-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.xc8ze6VhNCMPbdFh",
+                          "name": "Potion of Animal Friendship",
+                          "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
+                          "type": "Item",
+                          "quantity": 1,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "2-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.4cfkMAf0TSbngNdl",
+                          "name": "Potion of Healing",
+                          "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+                          "type": "Item",
+                          "quantity": 2,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "3-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.RDrJhsqjzMj8zn9D",
+                          "name": "Rations (1 day)",
+                          "img": "icons/consumables/grains/bread-loaf-boule-rustic-brown.webp",
+                          "type": "Item",
+                          "quantity": 8,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "4-0": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.5YLQ0cnty8IE6JTj",
+                          "name": "Spell Scroll: Prayer of Healing",
+                          "img": "icons/sundries/scrolls/scroll-bound-blue-tan.webp",
+                          "type": "Item",
+                          "quantity": 1,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "0-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.tbhWEXkHvzRlVFlj",
+                          "name": "Spell Scroll: Summon Beholderkin",
+                          "img": "icons/sundries/scrolls/scroll-bound-sealed-brown-grey.webp",
+                          "type": "Item",
+                          "quantity": 1,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "1-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.mYQpq1cOyxeYIROy",
+                          "name": "Torch",
+                          "img": "icons/sundries/lights/torch-white.webp",
+                          "type": "Item",
+                          "quantity": 10,
+                          "uses": {
+                            "value": 1,
+                            "max": 1
+                          }
+                        },
+                        "2-1": {
+                          "uuid": "Actor.GTsiLmkzfdu8dplo.Item.BWfVxApF7gQ8fHl7",
+                          "name": "Waterskin",
+                          "img": "icons/sundries/survival/wetskin-leather-purple.webp",
+                          "type": "Item",
+                          "quantity": 1,
+                          "uses": {
+                            "value": 4,
+                            "max": 4
+                          }
+                        },
+                        "0-2": {
+                          "uuid": "Macro.OX2pucsFSOy1YIa3",
+                          "name": "Dungeon Turns",
+                          "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
+                          "type": "Macro"
+                        },
+                        "1-2": {
+                          "uuid": "Macro.HZVKCnl96Opmib0R",
+                          "name": "Torch",
+                          "img": "icons/sundries/lights/torch-brown-lit.webp",
+                          "type": "Macro"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "activeViewId": "view-y6S4zlJJLAFvrqvp"
+        },
+        "hotbar": {
+          "grids": [
+            {
+              "rows": 3,
+              "cols": 4,
+              "items": {
+                "0-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.1cyOoKawgXWIcIhF",
+                  "name": "Combat Wild Shape",
+                  "img": "icons/commodities/claws/claw-brown-black.webp",
+                  "type": "Item"
+                },
+                "1-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.ugzKvJxR5jxNPn8A",
+                  "name": "Wild Companion",
+                  "img": "icons/creatures/mammals/spirit-deer-herd-blue.webp",
+                  "type": "Item"
+                },
+                "2-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.y1sARUsNsgVUqrrS",
+                  "name": "Wild Shape",
+                  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+                  "type": "Item",
+                  "uses": {
+                    "value": 1,
+                    "max": 2
+                  }
+                },
+                "3-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.jomQfu31UL5P1evU",
+                  "name": "War Caster",
+                  "img": "modules/plutonium/media/icon/feat/phb-war-caster.webp",
+                  "type": "Item"
+                }
+              }
+            },
+            {
+              "rows": 3,
+              "cols": 6,
+              "items": {
+                "0-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.N9oYPhSLEnnr6aJk",
+                  "name": "Create Bonfire",
+                  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "1-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.u8Ys6iPpecAbieKH",
+                  "name": "Gust",
+                  "img": "icons/magic/air/wind-stream-blue-gray.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "2-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.dfBZL0Lrx2fVL7xL",
+                  "name": "Primal Savagery",
+                  "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "3-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.n9r1O2eEFnvuhO7G",
+                  "name": "Animal Friendship",
+                  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "4-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.FmB88qcEPRjX0jxh",
+                  "name": "Cure Wounds",
+                  "img": "icons/magic/life/cross-flared-green.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "5-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.ABzYgllV1dYKMkku",
+                  "name": "Healing Word",
+                  "img": "icons/magic/life/heart-cross-blue.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "0-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.giYI2hAHp204dhNM",
+                  "name": "Ice Knife",
+                  "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "1-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.P6eMYj7dT3HGzunO",
+                  "name": "Speak with Animals",
+                  "img": "icons/creatures/mammals/deer-antlers-blue.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "2-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.1SESWawyHSCMUS0g",
+                  "name": "Thunderwave",
+                  "img": "icons/magic/lightning/barrier-wall-shield-gray.webp",
+                  "type": "Item",
+                  "depleted": false
+                },
+                "3-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.KiqyZixvs2mtpUsH",
+                  "name": "Wither and Bloom",
+                  "img": "icons/magic/nature/plant-vines-skull-green.webp",
+                  "type": "Item",
+                  "depleted": false
+                }
+              }
+            },
+            {
+              "rows": 3,
+              "cols": 5,
+              "items": {
+                "0-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.S0OD66JpVpQ4YPiG",
+                  "name": "Hempen Rope (50 feet)",
+                  "img": "icons/sundries/survival/rope-coiled-wrapped-brown.webp",
+                  "type": "Item",
+                  "quantity": 1,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "1-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.xc8ze6VhNCMPbdFh",
+                  "name": "Potion of Animal Friendship",
+                  "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
+                  "type": "Item",
+                  "quantity": 1,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "2-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.4cfkMAf0TSbngNdl",
+                  "name": "Potion of Healing",
+                  "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+                  "type": "Item",
+                  "quantity": 2,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "3-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.RDrJhsqjzMj8zn9D",
+                  "name": "Rations (1 day)",
+                  "img": "icons/consumables/grains/bread-loaf-boule-rustic-brown.webp",
+                  "type": "Item",
+                  "quantity": 8,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "4-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.5YLQ0cnty8IE6JTj",
+                  "name": "Spell Scroll: Prayer of Healing",
+                  "img": "icons/sundries/scrolls/scroll-bound-blue-tan.webp",
+                  "type": "Item",
+                  "quantity": 1,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "0-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.tbhWEXkHvzRlVFlj",
+                  "name": "Spell Scroll: Summon Beholderkin",
+                  "img": "icons/sundries/scrolls/scroll-bound-sealed-brown-grey.webp",
+                  "type": "Item",
+                  "quantity": 1,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "1-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.mYQpq1cOyxeYIROy",
+                  "name": "Torch",
+                  "img": "icons/sundries/lights/torch-white.webp",
+                  "type": "Item",
+                  "quantity": 10,
+                  "uses": {
+                    "value": 1,
+                    "max": 1
+                  }
+                },
+                "2-1": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.BWfVxApF7gQ8fHl7",
+                  "name": "Waterskin",
+                  "img": "icons/sundries/survival/wetskin-leather-purple.webp",
+                  "type": "Item",
+                  "quantity": 1,
+                  "uses": {
+                    "value": 4,
+                    "max": 4
+                  }
+                },
+                "0-2": {
+                  "uuid": "Macro.OX2pucsFSOy1YIa3",
+                  "name": "Dungeon Turns",
+                  "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
+                  "type": "Macro"
+                },
+                "1-2": {
+                  "uuid": "Macro.HZVKCnl96Opmib0R",
+                  "name": "Torch",
+                  "img": "icons/sundries/lights/torch-brown-lit.webp",
+                  "type": "Macro"
+                }
+              }
+            }
+          ]
+        },
+        "weaponSets": {
+          "sets": [
+            {
+              "rows": 1,
+              "cols": 2,
+              "items": {
+                "0-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.PeGTInCuAF9JvgDe",
+                  "name": "Wooden Staff",
+                  "img": "icons/weapons/staves/staff-animal-skull-horn-brown.webp",
+                  "type": "Item",
+                  "quantity": 1
+                },
+                "1-0": {
+                  "uuid": "Actor.GTsiLmkzfdu8dplo.Item.NvhnuVbgj2TptlDi",
+                  "name": "Longbow",
+                  "img": "icons/weapons/bows/longbow-leather-green.webp",
+                  "type": "Item",
+                  "quantity": 1
+                }
+              }
+            },
+            {
+              "rows": 1,
+              "cols": 2,
+              "items": {}
+            },
+            {
+              "rows": 1,
+              "cols": 2,
+              "items": {}
+            }
+          ],
+          "activeSet": 0
+        },
+        "quickAccess": {
+          "grids": [
+            {
+              "rows": 2,
+              "cols": 3,
+              "items": {}
+            }
+          ]
+        }
+      }
+    },
+    "bg3-hud-dnd5e": {}
   },
   "_stats": {
     "coreVersion": "13.348",
     "systemId": "dnd5e",
     "systemVersion": "5.1.9",
     "createdTime": 1760103805298,
-    "modifiedTime": 1777125756275,
-    "lastModifiedBy": "lBfZhvkwevNqguiH",
+    "modifiedTime": 1778940182435,
+    "lastModifiedBy": "9FHYVzDhQdLlxGYF",
     "exportSource": {
       "worldId": "heroes-of-the-borderlands",
       "uuid": "Actor.GTsiLmkzfdu8dplo",

@@ -6,9 +6,9 @@
   "system": {
     "currency": {
       "pp": 60,
-      "gp": 919,
-      "ep": 31,
-      "sp": 192,
+      "gp": 759,
+      "ep": 181,
+      "sp": 3313,
       "cp": 198
     },
     "abilities": {
@@ -453,10 +453,10 @@
     },
     "spells": {
       "spell1": {
-        "value": 3
+        "value": 1
       },
       "spell2": {
-        "value": 2
+        "value": 0
       },
       "spell3": {
         "value": 0
@@ -533,7 +533,7 @@
       },
       "loyalty": {},
       "hp": {
-        "value": 21,
+        "value": 23,
         "max": null,
         "temp": 0,
         "tempmax": 0,
@@ -551,7 +551,7 @@
           "save": ""
         }
       },
-      "inspiration": true
+      "inspiration": false
     },
     "bastion": {
       "name": "",
@@ -5729,7 +5729,7 @@
               "type": "base",
               "dependents": [
                 {
-                  "uuid": "Scene.74sHPdoopJKOTF1H.Token.TtQtCfFDLAjdbpNa.Actor.5EgB5jblMOWq87wZ.ActiveEffect.Oi57irJQqkN9cDAc"
+                  "uuid": "Actor.wE9SQ2Rix30wZH0T.ActiveEffect.eLkCsSMyFJhyalxI"
                 }
               ]
             },
@@ -5759,7 +5759,7 @@
             "systemId": "dnd5e",
             "systemVersion": "5.1.9",
             "lastModifiedBy": "lBfZhvkwevNqguiH",
-            "modifiedTime": 1777111740140
+            "modifiedTime": 1778940951747
           },
           "type": "base"
         }
@@ -7517,7 +7517,7 @@
         "levels": 4,
         "hd": {
           "denomination": "d8",
-          "spent": 0,
+          "spent": 2,
           "additional": ""
         },
         "spellcasting": {
@@ -7916,8 +7916,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636682340,
-        "modifiedTime": 1777415488058,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "modifiedTime": 1778937138503,
+        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
       "sort": 0,
@@ -8280,7 +8280,7 @@
               "type": "recoverAll"
             }
           ],
-          "spent": 1
+          "spent": 3
         },
         "type": {
           "value": "class",
@@ -8731,7 +8731,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636683505,
-        "modifiedTime": 1777123695081,
+        "modifiedTime": 1778939988829,
         "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
@@ -9982,275 +9982,6 @@
       }
     },
     {
-      "_id": "yZoULgmwE7VVo7Fr",
-      "name": "Handaxe",
-      "type": "weapon",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "149",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
-        },
-        "price": {
-          "value": 5,
-          "denomination": "gp"
-        },
-        "attunement": "",
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "cover": null,
-        "range": {
-          "value": 20,
-          "long": 60,
-          "units": "ft"
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "damage": {
-          "versatile": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "base": {
-            "number": 1,
-            "denomination": 6,
-            "bonus": "",
-            "types": [
-              "slashing"
-            ],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          }
-        },
-        "armor": {
-          "value": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "properties": [
-          "lgt",
-          "thr"
-        ],
-        "proficient": null,
-        "type": {
-          "value": "simpleM",
-          "baseItem": "handaxe"
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "crewed": false,
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "20",
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "melee",
-                "classification": "weapon"
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": []
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
-            "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1
-          }
-        },
-        "attuned": false,
-        "ammunition": {},
-        "mastery": "",
-        "identifier": "handaxe"
-      },
-      "img": "icons/weapons/axes/axe-broad-black.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "handaxe_phb"
-        },
-        "dnd5e": {
-          "last": {
-            "dnd5eactivity000": {
-              "attackMode": "oneHanded"
-            }
-          }
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1760636686998,
-        "modifiedTime": 1762632861163,
-        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "U2X9YI4gICTMV9xU",
       "name": "Backpack",
       "type": "container",
@@ -10530,7 +10261,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 10,
+        "quantity": 5,
         "weight": {
           "value": 1,
           "units": "lb"
@@ -10758,8 +10489,8 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636687861,
-        "modifiedTime": 1760636687861,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
+        "modifiedTime": 1778936003216,
+        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
       "sort": 0,
@@ -10784,7 +10515,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 9,
+        "quantity": 5,
         "weight": {
           "value": 2,
           "units": "lb"
@@ -10970,7 +10701,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636688098,
-        "modifiedTime": 1777119599533,
+        "modifiedTime": 1778936008303,
         "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
@@ -19258,9 +18989,9 @@
     },
     {
       "type": "consumable",
-      "name": "Зелье плванья",
+      "name": "Зелье плaванья",
       "_id": "wzZUwiDPuwqCXCbB",
-      "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+      "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
       "system": {
         "activities": {},
         "uses": {
@@ -19270,7 +19001,7 @@
           "max": ""
         },
         "description": {
-          "value": "",
+          "value": "<p>Даёт скорость плаванья на 1 час</p>",
           "chat": ""
         },
         "identifier": "new-item",
@@ -19323,7 +19054,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1763831043362,
-        "modifiedTime": 1772308067013,
+        "modifiedTime": 1778280228676,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "ownership": {
@@ -20108,222 +19839,11 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772306610285,
-        "modifiedTime": 1772310142170,
+        "modifiedTime": 1778926641798,
         "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       },
       "folder": null,
       "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "Uy5cdVtCYnlRIRnP",
-      "name": "Potion of Healing",
-      "type": "consumable",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "DMG 2024",
-          "page": "288",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"><p>This potion is a magic item. As a @variantrule[Bonus Action|XPHB], you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains [[/r 2d4 + 2]] @variantrule[Hit Points|XPHB]. The potion's red liquid glimmers when agitated.</p></div>",
-          "chat": ""
-        },
-        "quantity": 2,
-        "weight": {
-          "value": 0.5,
-          "units": "lb"
-        },
-        "price": {
-          "value": 50,
-          "denomination": "gp"
-        },
-        "identified": true,
-        "rarity": "common",
-        "type": {
-          "value": "potion",
-          "subtype": ""
-        },
-        "properties": [
-          "mgc"
-        ],
-        "attunement": "",
-        "uses": {
-          "max": "1",
-          "spent": 0,
-          "recovery": [],
-          "autoDestroy": true
-        },
-        "magicalBonus": 0,
-        "damage": {
-          "base": {
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
-          },
-          "replace": false
-        },
-        "activities": {
-          "dnd5eactivity000": {
-            "name": "Consume",
-            "type": "heal",
-            "activation": {
-              "type": "bonus",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "scaling": {}
-                }
-              ],
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true
-            },
-            "target": {
-              "affects": {
-                "type": "creature",
-                "choice": false
-              },
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "override": false
-            },
-            "healing": {
-              "number": 2,
-              "denomination": 4,
-              "types": [
-                "healing"
-              ],
-              "scaling": {
-                "number": 1
-              },
-              "bonus": "2",
-              "custom": {
-                "enabled": false
-              }
-            },
-            "_id": "dnd5eactivity000",
-            "sort": 0,
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            }
-          }
-        },
-        "identifier": "potion-of-healing",
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "attuned": false,
-        "equipped": false
-      },
-      "img": "icons/consumables/potions/potion-tube-corked-red.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "XDMG",
-          "hash": "potion%20of%20healing_xdmg",
-          "propDroppable": "item",
-          "isStandardDragDrop": true
-        },
-        "dnd5e": {
-          "last": {
-            "dnd5eactivity000": {
-              "damageType": {
-                "0": "healing"
-              }
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": "Lw7gvqEMokHtK0DE",
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1772308135401,
-        "modifiedTime": 1777123916645,
-        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
-      },
-      "sort": 4100000,
       "ownership": {
         "default": 0
       }
@@ -20668,7 +20188,7 @@
           "value": 0,
           "denomination": "gp"
         },
-        "attunement": "NaN",
+        "attunement": "",
         "rarity": "rare",
         "identified": true,
         "uses": {
@@ -20855,7 +20375,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1772901293802,
-        "modifiedTime": 1772901293802,
+        "modifiedTime": 1777924159937,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "sort": 0,
@@ -22438,23 +21958,23 @@
   ],
   "effects": [
     {
-      "name": "Собрать всё",
-      "img": "icons/containers/bags/sack-simple-leahter-green.webp",
+      "name": "На страже!",
+      "img": "icons/magic/perception/eye-slit-orange.webp",
       "origin": "Actor.6sq926EkPKZuDcYT",
       "disabled": false,
-      "description": "Вы тратите эти 10 минут, собирая всё найденное ранее снаряжение и ценности, которые уже были обнаружены или не были спрятаны.",
+      "description": "Ваша группа не может быть застигнута врасплох враждебными существами, которых вы можете видеть. Если вы бросаете инициативу, до своего первого хода вы можете использовать реакцию, чтобы выполнить одно из действий: Атака, Рывок, Уклонение, Скрыться или заговор.",
       "statuses": [
-        "gather"
+        "watch"
       ],
       "flags": {
         "world": {
           "exploration-activity": true,
-          "description": "Вы тратите эти 10 минут, собирая всё найденное ранее снаряжение и ценности, которые уже были обнаружены или не были спрятаны.",
-          "shortDesc": "Соберите всё найденное снаряжение.",
-          "requirements": "Вы можете ясно видеть и слышать."
+          "description": "Ваша группа не может быть застигнута врасплох враждебными существами, которых вы можете видеть. Если вы бросаете инициативу, до своего первого хода вы можете использовать реакцию, чтобы выполнить одно из действий: Атака, Рывок, Уклонение, Скрыться или заговор.",
+          "shortDesc": "Вы стоите на страже, готовясь к любой неожиданности.",
+          "requirements": "вы не ослеплены и не оглохли и можете ясно видеть окружающую обстановку."
         },
         "core": {
-          "statusId": "gather"
+          "statusId": "watch"
         },
         "dae": {
           "specialDuration": []
@@ -22462,11 +21982,11 @@
       },
       "duration": {
         "seconds": 600,
-        "startTime": 648,
+        "startTime": 732,
         "combat": null
       },
       "changes": [],
-      "_id": "Uc2WtvviLIJWuf36",
+      "_id": "qFk2PvIgNqO3OLjy",
       "type": "base",
       "system": {},
       "tint": "#ffffff",
@@ -22476,8 +21996,63 @@
         "coreVersion": "13.348",
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
-        "createdTime": 1777125700165,
-        "modifiedTime": 1777125700165,
+        "createdTime": 1778936577966,
+        "modifiedTime": 1778936577966,
+        "lastModifiedBy": "tlBKPsDZsHtCTLD0"
+      }
+    },
+    {
+      "name": "Concentrating: Silence",
+      "img": "systems/dnd5e/icons/svg/statuses/concentrating.svg",
+      "_id": "BdN8EXhx4oA0Jjq1",
+      "description": "<p>You are maintaining concentration on the effects of the 'Silence' Spell.</p><hr /><p>@Embed[Actor.6sq926EkPKZuDcYT.Item.hE4Y1riknl2uCt6P inline]</p>",
+      "duration": {
+        "seconds": 600,
+        "startTime": 738,
+        "combat": null
+      },
+      "flags": {
+        "dnd5e": {
+          "activity": {
+            "type": "utility",
+            "id": "dnd5eactivity000",
+            "uuid": "Actor.6sq926EkPKZuDcYT.Item.hE4Y1riknl2uCt6P.Activity.dnd5eactivity000"
+          },
+          "item": {
+            "type": "spell",
+            "id": "hE4Y1riknl2uCt6P",
+            "uuid": "Actor.6sq926EkPKZuDcYT.Item.hE4Y1riknl2uCt6P"
+          },
+          "scaling": 0,
+          "itemUuid": "Actor.6sq926EkPKZuDcYT.Item.hE4Y1riknl2uCt6P.Activity.dnd5eactivity000",
+          "spellLevel": 2,
+          "dependents": [
+            {
+              "uuid": "Scene.ihNv9WMQycDSe9eq.MeasuredTemplate.bCihXuVlLNZDAvv0"
+            }
+          ]
+        },
+        "dae": {
+          "specialDuration": []
+        }
+      },
+      "origin": "Actor.6sq926EkPKZuDcYT.Item.hE4Y1riknl2uCt6P",
+      "statuses": [
+        "concentrating"
+      ],
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778939747125,
+        "modifiedTime": 1778939754877,
         "lastModifiedBy": "tlBKPsDZsHtCTLD0"
       }
     }
@@ -22627,9 +22202,6 @@
               "2-2": {
                 "uuid": "Actor.6sq926EkPKZuDcYT.Item.UeRIWjYjlS7XToNJ"
               },
-              "3-2": {
-                "uuid": "Actor.6sq926EkPKZuDcYT.Item.7266E4xJBIUN8oiM"
-              },
               "1-0": {
                 "uuid": "Actor.6sq926EkPKZuDcYT.Item.U2X9YI4gICTMV9xU"
               }
@@ -22660,11 +22232,7 @@
           {
             "cols": 2,
             "rows": 1,
-            "items": {
-              "0-0": {
-                "uuid": "Actor.6sq926EkPKZuDcYT.Item.yZoULgmwE7VVo7Fr"
-              }
-            },
+            "items": {},
             "type": "label",
             "for": "weapon-set",
             "delOnly": true,
@@ -23329,7 +22897,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.1.9",
     "createdTime": 1760103800541,
-    "modifiedTime": 1777734901863,
+    "modifiedTime": 1778942626078,
     "lastModifiedBy": "lBfZhvkwevNqguiH",
     "exportSource": {
       "worldId": "heroes-of-the-borderlands",

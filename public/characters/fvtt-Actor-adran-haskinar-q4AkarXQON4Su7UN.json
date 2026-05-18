@@ -7,9 +7,9 @@
     "currency": {
       "pp": 60,
       "gp": 952,
-      "ep": 31,
-      "sp": 160,
-      "cp": 3
+      "ep": 181,
+      "sp": 1680,
+      "cp": 26
     },
     "abilities": {
       "str": {
@@ -429,7 +429,7 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 2
+        "value": 0
       },
       "spell2": {
         "value": 0
@@ -527,7 +527,7 @@
           "save": ""
         }
       },
-      "inspiration": true
+      "inspiration": false
     },
     "bastion": {
       "name": "",
@@ -1425,7 +1425,7 @@
         "levels": 4,
         "hd": {
           "denomination": "d10",
-          "spent": 0,
+          "spent": 1,
           "additional": ""
         },
         "spellcasting": {
@@ -1825,7 +1825,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636962607,
-        "modifiedTime": 1777107935560,
+        "modifiedTime": 1778937114938,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -1859,7 +1859,7 @@
               "type": "recoverAll"
             }
           ],
-          "spent": 0
+          "spent": 2
         },
         "type": {
           "value": "class",
@@ -2025,7 +2025,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636962797,
-        "modifiedTime": 1775912296046,
+        "modifiedTime": 1778938043585,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -3420,281 +3420,6 @@
       }
     },
     {
-      "_id": "PXdqZX8spRRhdRRv",
-      "name": "Warhammer",
-      "type": "weapon",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "149",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
-        },
-        "price": {
-          "value": 15,
-          "denomination": "gp"
-        },
-        "attunement": "",
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "cover": null,
-        "range": {
-          "value": 0,
-          "long": 0,
-          "units": "ft",
-          "reach": null
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "damage": {
-          "versatile": {
-            "number": 1,
-            "denomination": 10,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "base": {
-            "number": 1,
-            "denomination": 8,
-            "bonus": "",
-            "types": [
-              "bludgeoning"
-            ],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          }
-        },
-        "armor": {
-          "value": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "properties": [
-          "ver"
-        ],
-        "proficient": null,
-        "type": {
-          "value": "martialM",
-          "baseItem": "warhammer"
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "crewed": false,
-        "magicalBonus": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "5",
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "melee",
-                "classification": "weapon"
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": []
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
-            "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1
-          }
-        },
-        "attuned": false,
-        "ammunition": {},
-        "identifier": "warhammer",
-        "mastery": ""
-      },
-      "img": "icons/weapons/hammers/hammer-double-stone.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "warhammer_phb"
-        },
-        "dnd5e": {
-          "last": {
-            "dnd5eactivity000": {
-              "attackMode": "oneHanded",
-              "damageType": {
-                "0": "bludgeoning"
-              }
-            }
-          },
-          "riders": {
-            "activity": []
-          }
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1760636963495,
-        "modifiedTime": 1772308431184,
-        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
-      },
-      "folder": null,
-      "sort": 350000,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "wGVMxDQbM6lHvfLo",
       "name": "Shield",
       "type": "equipment",
@@ -4338,7 +4063,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 6,
+        "quantity": 4,
         "weight": {
           "value": 1,
           "units": "lb"
@@ -4566,7 +4291,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636964287,
-        "modifiedTime": 1776523549250,
+        "modifiedTime": 1778936027087,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -4592,7 +4317,7 @@
           "rules": "2014",
           "revision": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "weight": {
           "value": 2,
           "units": "lb"
@@ -4778,7 +4503,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760636964379,
-        "modifiedTime": 1777119640994,
+        "modifiedTime": 1778936029033,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -4991,227 +4716,6 @@
         "systemVersion": "5.1.9",
         "createdTime": 1760636964476,
         "modifiedTime": 1760636964476,
-        "lastModifiedBy": "lBfZhvkwevNqguiH"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "v8FomMWYj5FsnAb9",
-      "name": "Hempen Rope (50 feet)",
-      "type": "consumable",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"><p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a [[/save ability=str dc=17]] check.</p></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "153",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 10,
-          "units": "lb"
-        },
-        "price": {
-          "value": 1,
-          "denomination": "gp"
-        },
-        "attunement": "",
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "uses": {
-          "max": "1",
-          "recovery": [],
-          "autoDestroy": false,
-          "spent": 0
-        },
-        "damage": {
-          "base": {
-            "number": null,
-            "denomination": null,
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
-          },
-          "replace": false
-        },
-        "type": {
-          "value": "trinket",
-          "subtype": ""
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": "Xg26W7iS1TOe1JBO",
-        "properties": [],
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "check",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "scaling": {},
-                  "value": "1"
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "self",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "check": {
-              "ability": "str",
-              "dc": {
-                "calculation": "",
-                "formula": "17"
-              },
-              "associated": []
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "name": "Burst",
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "none",
-            "otherActivityAsParentType": true,
-            "damage": {
-              "onSave": "half",
-              "parts": [],
-              "critical": {
-                "allow": false
-              }
-            },
-            "friendlySave": "default"
-          }
-        },
-        "attuned": false,
-        "identifier": "hempen-rope-50-ft"
-      },
-      "img": "icons/sundries/survival/rope-coiled-wrapped-brown.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "hempen%20rope%20(50%20feet)_phb"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1760636964621,
-        "modifiedTime": 1760636964621,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "folder": null,
@@ -5437,10 +4941,11 @@
         "enchant": {},
         "prerequisites": {
           "items": [],
-          "repeatable": false
+          "repeatable": false,
+          "level": null
         }
       },
-      "img": "modules/plutonium/media/icon/farmer.svg",
+      "img": "icons/commodities/currency/coin-inset-crown-gold.webp",
       "flags": {
         "plutonium": {
           "page": "backgroundFeature",
@@ -5461,7 +4966,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760638650188,
-        "modifiedTime": 1760638650639,
+        "modifiedTime": 1777929994151,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "folder": null,
@@ -5992,7 +5497,7 @@
         },
         "container": null
       },
-      "img": "modules/plutonium/media/icon/battle-gear.svg",
+      "img": "icons/commodities/currency/coins-leather-pouch-stone.webp",
       "flags": {
         "plutonium": {
           "page": "items.html",
@@ -6006,7 +5511,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1760638657764,
-        "modifiedTime": 1760638657764,
+        "modifiedTime": 1777928443625,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "folder": null,
@@ -13633,7 +13138,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1763228716436,
-        "modifiedTime": 1772308429873,
+        "modifiedTime": 1778935966789,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       },
       "folder": null,
@@ -15009,482 +14514,6 @@
       }
     },
     {
-      "_id": "IW2RDyV2F0w37Wca",
-      "name": "Oil (flask)",
-      "type": "consumable",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"><p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "152",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
-        },
-        "price": {
-          "value": 1,
-          "denomination": "sp"
-        },
-        "attunement": "",
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "uses": {
-          "max": "1",
-          "recovery": [],
-          "autoDestroy": true,
-          "spent": 0
-        },
-        "damage": {
-          "base": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [
-              "fire"
-            ],
-            "custom": {
-              "enabled": true,
-              "formula": "5"
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "replace": false
-        },
-        "container": "Qy2aRjl4iQ8EmaT5",
-        "properties": [],
-        "type": {
-          "value": "trinket",
-          "subtype": ""
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "1",
-              "units": "minute",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "5",
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "1",
-                "type": "creature",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "attack": {
-              "ability": "dex",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": "weapon"
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": null,
-                  "denomination": null,
-                  "bonus": "",
-                  "types": [
-                    "fire"
-                  ],
-                  "custom": {
-                    "enabled": true,
-                    "formula": "5"
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
-            "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1
-          }
-        },
-        "attuned": false,
-        "identifier": "oil-flask"
-      },
-      "img": "icons/sundries/survival/waterskin-leather-brown.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "oil%20(flask)_phb"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1775913101530,
-        "modifiedTime": 1776529459393,
-        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
-      },
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "XqkBt5alHZYXjM2c",
-      "name": "Oil of Slipperiness",
-      "type": "consumable",
-      "system": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--2\"><p>This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a @spell[freedom of movement] spell for 8 hours.</p><p>Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the @spell[grease] spell in that area for 8 hours.</p></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "DMG'14",
-          "page": "184",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 0,
-          "units": "lb"
-        },
-        "price": {
-          "value": 0,
-          "denomination": "gp"
-        },
-        "attunement": "NaN",
-        "rarity": "uncommon",
-        "identified": true,
-        "uses": {
-          "max": "1",
-          "recovery": [],
-          "autoDestroy": true,
-          "spent": 0
-        },
-        "damage": {
-          "base": {
-            "number": null,
-            "denomination": null,
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
-          },
-          "replace": false
-        },
-        "type": {
-          "value": "potion",
-          "subtype": ""
-        },
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "properties": [
-          "mgc"
-        ],
-        "magicalBonus": null,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "8",
-              "units": "hour",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "touch",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "otherActivityId": "none",
-            "otherActivityAsParentType": true
-          }
-        },
-        "attuned": false,
-        "identifier": "oil-of-slipperiness",
-        "equipped": true
-      },
-      "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "DMG",
-          "hash": "oil%20of%20slipperiness_dmg",
-          "propDroppable": "item",
-          "isStandardDragDrop": true
-        },
-        "item-piles": {
-          "item": {
-            "-=overheadCost": null
-          }
-        }
-      },
-      "effects": [],
-      "folder": "Lw7gvqEMokHtK0DE",
-      "_stats": {
-        "coreVersion": "13.348",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.9",
-        "createdTime": 1776529015697,
-        "modifiedTime": 1777110250288,
-        "lastModifiedBy": "T4VVicZmWg6I2cRZ"
-      },
-      "sort": 600000,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "OqMHWXTfI6bzOhZu",
       "name": "Potion of Greater Healing",
       "type": "consumable",
@@ -15793,7 +14822,7 @@
       "type": "loot",
       "name": "Проклятые Специи",
       "_id": "6749RGxubYaEtFGq",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "icons/consumables/food/salt-seasoning-spice-pink.webp",
       "system": {
         "description": {
           "value": "",
@@ -15834,7 +14863,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
         "createdTime": 1776529398250,
-        "modifiedTime": 1776529413249,
+        "modifiedTime": 1777928471959,
         "lastModifiedBy": "lBfZhvkwevNqguiH"
       },
       "ownership": {
@@ -16817,27 +15846,934 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "cJsnhKVrFHanh3pL",
+      "name": "Azurite",
+      "type": "loot",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "134",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>An opaque mottled deep blue gemstone.</p></div>",
+          "chat": ""
+        },
+        "quantity": 42,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "identified": true,
+        "rarity": "",
+        "type": {
+          "value": "gem",
+          "subtype": ""
+        },
+        "properties": [],
+        "identifier": "azurite",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null
+      },
+      "img": "icons/commodities/stone/geode-raw-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "azurite_dmg",
+          "propDroppable": "item",
+          "isStandardDragDrop": true
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "folder": "2fcDicDRLk9QPH9b",
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778935411519,
+        "modifiedTime": 1778935411519,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "dJ1LQewnAbbbx6yh",
+      "name": "Jasper",
+      "type": "loot",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "134",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>An opaque blue, black, or brown gemstone.</p></div>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "identified": true,
+        "rarity": "",
+        "type": {
+          "value": "gem",
+          "subtype": ""
+        },
+        "properties": [],
+        "identifier": "jasper",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null
+      },
+      "img": "icons/commodities/gems/gem-oval-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "jasper_dmg"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778935412764,
+        "modifiedTime": 1778935412764,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "shmqD25Swspzl6ov",
+      "name": "Lapis Lazuli",
+      "type": "loot",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "134",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>An opaque light and dark blue with yellow flecks gemstone.</p></div>",
+          "chat": ""
+        },
+        "quantity": 39,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "identified": true,
+        "rarity": "",
+        "type": {
+          "value": "gem",
+          "subtype": ""
+        },
+        "properties": [],
+        "identifier": "lapis-lazuli",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null
+      },
+      "img": "icons/commodities/gems/gem-rough-pendeloque-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "lapis%20lazuli_dmg"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778935413724,
+        "modifiedTime": 1778935413724,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "vgOXKBPwoSADLq0x",
+      "name": "Obsidian",
+      "type": "loot",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "134",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>An opaque black gemstone.</p></div>",
+          "chat": ""
+        },
+        "quantity": 6,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "identified": true,
+        "rarity": "",
+        "type": {
+          "value": "gem",
+          "subtype": ""
+        },
+        "properties": [],
+        "identifier": "obsidian",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null
+      },
+      "img": "icons/commodities/stone/geode-raw-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "obsidian_dmg"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778935414571,
+        "modifiedTime": 1778935414571,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "wmezd77UJHpsXpCA",
+      "name": "Onyx",
+      "type": "loot",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "134",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>An opaque black and white banded, or pure black or white gemstone.</p></div>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "identified": true,
+        "rarity": "",
+        "type": {
+          "value": "gem",
+          "subtype": ""
+        },
+        "properties": [],
+        "identifier": "onyx",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null
+      },
+      "img": "icons/commodities/gems/gem-faceted-round-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "onyx_dmg"
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778935415463,
+        "modifiedTime": 1778935415463,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1qmLBjJAZ6HvZEa1",
+      "name": "Zircon",
+      "type": "loot",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "134",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>A transparent pale blue-green gemstone.</p></div>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "identified": true,
+        "rarity": "",
+        "type": {
+          "value": "gem",
+          "subtype": ""
+        },
+        "properties": [],
+        "identifier": "zircon",
+        "unidentified": {
+          "description": ""
+        },
+        "container": null
+      },
+      "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "zircon_dmg",
+          "propDroppable": "item",
+          "isStandardDragDrop": true
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "folder": "2fcDicDRLk9QPH9b",
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778935416552,
+        "modifiedTime": 1778935416552,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "FeOPUWKaxGt2prXF",
+      "name": "Warhammer",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "149",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 15,
+          "denomination": "gp"
+        },
+        "attunement": "NaN",
+        "rarity": "",
+        "identified": true,
+        "cover": null,
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "damage": {
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [
+          "ver"
+        ],
+        "type": {
+          "value": "martialM",
+          "baseItem": "warhammer"
+        },
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "magicalBonus": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "",
+            "otherActivityAsParentType": true,
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1
+          }
+        },
+        "attuned": false,
+        "ammunition": {},
+        "identifier": "warhammer",
+        "mastery": "",
+        "equipped": false,
+        "proficient": null
+      },
+      "img": "icons/weapons/hammers/hammer-double-stone.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "warhammer_phb"
+        },
+        "dnd5e": {
+          "last": {
+            "dnd5eactivity000": {
+              "attackMode": "oneHanded",
+              "damageType": {
+                "0": "bludgeoning"
+              }
+            }
+          },
+          "riders": {
+            "activity": []
+          }
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778936119428,
+        "modifiedTime": 1778936119428,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "folder": null,
+      "sort": 350000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "XqkBt5alHZYXjM2c",
+      "name": "Oil of Slipperiness",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\"><p>This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a @spell[freedom of movement] spell for 8 hours.</p><p>Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the @spell[grease] spell in that area for 8 hours.</p></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DMG'14",
+          "page": "184",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attunement": "NaN",
+        "rarity": "uncommon",
+        "identified": true,
+        "uses": {
+          "max": "1",
+          "recovery": [],
+          "autoDestroy": true,
+          "spent": 0
+        },
+        "damage": {
+          "base": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "replace": false
+        },
+        "type": {
+          "value": "potion",
+          "subtype": ""
+        },
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "properties": [
+          "mgc"
+        ],
+        "magicalBonus": null,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "8",
+              "units": "hour",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true
+          }
+        },
+        "attuned": false,
+        "identifier": "oil-of-slipperiness",
+        "equipped": true
+      },
+      "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "DMG",
+          "hash": "oil%20of%20slipperiness_dmg",
+          "propDroppable": "item",
+          "isStandardDragDrop": true
+        },
+        "item-piles": {
+          "item": {
+            "-=overheadCost": null
+          }
+        }
+      },
+      "effects": [],
+      "folder": "Lw7gvqEMokHtK0DE",
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1778941716527,
+        "modifiedTime": 1778941716527,
+        "lastModifiedBy": "lBfZhvkwevNqguiH"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [
     {
-      "name": "На страже!",
-      "img": "icons/magic/perception/eye-slit-orange.webp",
+      "name": "Не спеши",
+      "img": "icons/magic/time/hourglass-brown-orange.webp",
       "origin": "Actor.q4AkarXQON4Su7UN",
       "disabled": false,
-      "description": "Ваша группа не может быть застигнута врасплох враждебными существами, которых вы можете видеть. Если вы бросаете инициативу, до своего первого хода вы можете использовать реакцию, чтобы выполнить одно из действий: Атака, Рывок, Уклонение, Скрыться или заговор.",
+      "description": "Вы получаете результат 20 на своем следующем d20-тесте. Если у вас было бы преимущество, вы получаете бонус +5. Также можно потратить 10 минут, чтобы перебросить проваленную проверку.",
       "statuses": [
-        "watch"
+        "take-time"
       ],
       "flags": {
         "world": {
           "exploration-activity": true,
-          "description": "Ваша группа не может быть застигнута врасплох враждебными существами, которых вы можете видеть. Если вы бросаете инициативу, до своего первого хода вы можете использовать реакцию, чтобы выполнить одно из действий: Атака, Рывок, Уклонение, Скрыться или заговор.",
-          "shortDesc": "Вы стоите на страже, готовясь к любой неожиданности.",
-          "requirements": "вы не ослеплены и не оглохли и можете ясно видеть окружающую обстановку."
+          "description": "Вы получаете результат 20 на своем следующем d20-тесте. Если у вас было бы преимущество, вы получаете бонус +5. Также можно потратить 10 минут, чтобы перебросить проваленную проверку.",
+          "shortDesc": "Вы тратите 10 минут, чтобы гарантировать успех действия.",
+          "requirements": "отсутствует."
         },
         "core": {
-          "statusId": "watch"
+          "statusId": "take-time"
         },
         "dae": {
           "specialDuration": []
@@ -16845,11 +16781,11 @@
       },
       "duration": {
         "seconds": 600,
-        "startTime": 648,
+        "startTime": 732,
         "combat": null
       },
       "changes": [],
-      "_id": "HVWG9luQGcREmrqJ",
+      "_id": "RR8LraMvGh88enuq",
       "type": "base",
       "system": {},
       "tint": "#ffffff",
@@ -16859,8 +16795,8 @@
         "coreVersion": "13.348",
         "systemId": "dnd5e",
         "systemVersion": "5.1.9",
-        "createdTime": 1777125757423,
-        "modifiedTime": 1777125757423,
+        "createdTime": 1778937230772,
+        "modifiedTime": 1778937230772,
         "lastModifiedBy": "T4VVicZmWg6I2cRZ"
       }
     }
@@ -16898,8 +16834,7 @@
               "1-1": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.wths3S7STlO1fLec"
               },
-              "4-1": null,
-              "2-1": null
+              "4-1": null
             },
             "id": "hotbar-container",
             "index": 0
@@ -16951,23 +16886,16 @@
               "4-1": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.oqMkcMxfReXXkwU4"
               },
-              "3-1": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.v8FomMWYj5FsnAb9"
-              },
               "0-2": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.6qQPteDeBMFfuN7a"
               },
               "1-1": null,
               "2-2": null,
-              "1-0": null,
-              "3-0": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.ENFzaGSFb0ATH8h5"
-              },
-              "4-2": {
+              "1-0": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.XqkBt5alHZYXjM2c"
               },
-              "3-2": {
-                "uuid": "Actor.q4AkarXQON4Su7UN.Item.IW2RDyV2F0w37Wca"
+              "3-0": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.ENFzaGSFb0ATH8h5"
               },
               "2-1": {
                 "uuid": "Actor.q4AkarXQON4Su7UN.Item.9cJrdXFHyPWE1BzW"
@@ -17042,7 +16970,14 @@
           {
             "cols": 2,
             "rows": 3,
-            "items": {},
+            "items": {
+              "0-0": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.qke2F9N00VAucfCh"
+              },
+              "0-1": {
+                "uuid": "Actor.q4AkarXQON4Su7UN.Item.qke2F9N00VAucfCh.Activity.kNTcL5BuY6WQnk1k"
+              }
+            },
             "class": [
               "bg3-combat-container"
             ],
@@ -17647,7 +17582,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.1.9",
     "createdTime": 1760103793382,
-    "modifiedTime": 1777735032858,
+    "modifiedTime": 1778942626275,
     "lastModifiedBy": "lBfZhvkwevNqguiH",
     "exportSource": {
       "worldId": "heroes-of-the-borderlands",
